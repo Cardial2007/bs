@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brawl Stars</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #1f2833;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    .brawler {
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Brawl Stars</h1>
+</header>
+<div class="container">
+    <div class="brawler">
+        <h2>Shelly</h2>
+        <p>Shelly é uma lutadora de curto alcance que pode atacar múltiplos inimigos com sua espingarda.</p>
+        <button onclick="showInfo('shelly')">Ver mais</button>
+    </div>
+    <div class="brawler">
+        <h2>Colt</h2>
+        <p>Colt é um atirador que pode causar muito dano a longas distâncias com seus tiros rápidos.</p>
+        <button onclick="showInfo('colt')">Ver mais</button>
+    </div>
+    <div class="brawler">
+        <h2>...</h2>
+        <p>Adicione mais informações sobre outros personagens aqui.</p>
+    </div>
+</div>
+<script>
+    function showInfo(brawler) {
+        alert(`Informações sobre ${brawler.toUpperCase()}`);
+    }
+</script>
+</body>
+</html>
